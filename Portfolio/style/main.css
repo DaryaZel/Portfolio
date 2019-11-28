@@ -67,3 +67,6 @@ h1{
     border: solid 1px #000000;
     vertical-align: bottom;
 }
+.mobile-body{
+    max-width: 375px;
+}
