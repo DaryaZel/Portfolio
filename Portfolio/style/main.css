@@ -67,6 +67,20 @@ h1{
     border: solid 1px #000000;
     vertical-align: bottom;
 }
+.portfolio-slider-container-img-info{
+    text-align: center;
+}
 .mobile-body{
     max-width: 375px;
+}
+.mobile-header-container, .mobile-carousel{
+    display: inline;
+}
+.mobile-carousel-items{
+    display:none;
+}
+.mobile-portfolio-slider-container-img{
+    margin-left: 0px;
+    height: 280px;
+    width: 400px;
 }
