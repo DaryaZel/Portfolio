@@ -25,38 +25,38 @@
 </head>
 
 <body>
-    <header >
+    <header>
         <div class="header">
-        <div class="header-container">
-            <div class="header-container-photo">
-                <img src="assets/my-photo.jpg" alt="My Photo">
-            </div>
-            <div class="header-container-name">
-                <h1>Darya Zeliankova</h1>
-                <span>Github</span>
-                <ul class="header-container-name-icons">
-                    <li>
-                        <a href="https://github.com/DaryaZel">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/darya-zelenkova-299b28192/">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <div class="header-container">
+                <div class="header-container-photo">
+                    <img src="assets/my-photo.jpg" alt="My Photo">
+                </div>
+                <div class="header-container-name">
+                    <h1>Darya Zeliankova</h1>
+                    <span>Github</span>
+                    <ul class="header-container-name-icons">
+                        <li>
+                            <a href="https://github.com/DaryaZel">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/darya-zelenkova-299b28192/">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="header-container-buttons">
                 <button id="display-button">Mobile</button>
@@ -71,6 +71,7 @@
                             <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
                                 aria-expanded="true" aria-controls="collapseOne">
                                 Education
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
                             </button>
                         </h2>
                     </div>
@@ -101,7 +102,12 @@
                     <div class="carousel-item active">
                         <div class="portfolio-slider-container">
                             <div>
-                                <h2>Repair Design Project</h2>
+                                <div class="portfolio-slider-container-title">
+                                    <h2>Repair Design Project</h2>
+                                    <button type="button" class="portfolio-slider-container-title_btl">
+                                        <i class="fas fa-ellipsis-v" aria-hidden="true"></i>
+                                    </button>
+                                </div>
                                 <ul class="portfolio-slider-container-list">
                                     <li>Backgrounds</li>
                                     <li>Forms</li>
@@ -117,13 +123,23 @@
                                     <img src="assets/repair-design-project.PNG" class="d-block w-100"
                                         alt="repair-design-project">
                                 </a>
+                                <div class="portfolio-slider-container-img-info">
+                                    <i class="fas fa-chevron-left"></i>
+                                    <span>Swipe to see the next project</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="portfolio-slider-container">
                             <div>
-                                <h2>Theyalow</h2>
+                                <div class="portfolio-slider-container-title">
+                                    <h2>Theyalow</h2>
+                                    <button type="button" class="portfolio-slider-container-title_btl">
+                                        <i class="fas fa-ellipsis-v" aria-hidden="true"></i>
+                                    </button>
+                                </div>
                                 <ul class="portfolio-slider-container-list">
                                     <li>Backgrounds</li>
                                     <li>Forms</li>
@@ -138,6 +154,11 @@
                                 <a href="https://daryazel.github.io/theyalow/">
                                     <img src="assets/theyalow.PNG" class="d-block w-100" alt="theyalow">
                                 </a>
+                                <div class="portfolio-slider-container-img-info">
+                                    <i class="fas fa-chevron-left"></i>
+                                    <span>Swipe to see the next project</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
