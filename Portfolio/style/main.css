@@ -50,6 +50,13 @@ h1{
     margin-left: 150px;
     margin-right: 150px;
 }
+.portfolio-slider-container-title{
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio-slider-container-title_btl{
+    display: none;
+}
 .portfolio-slider-container-list li{
     list-style-type: circle;
 }
@@ -83,4 +90,15 @@ h1{
     margin-left: 0px;
     height: 280px;
     width: 400px;
+}
+.mobile-portfolio-slider-container-list{
+    display: inline;
+}
+.mobile-portfolio-slider-container-list li{
+    margin: 0 25px 0;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.mobile-portfolio-slider-container-list li:nth-last-child(1){
+    margin-bottom: 80px;
 }
