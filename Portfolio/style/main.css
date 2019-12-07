@@ -102,3 +102,25 @@ h1{
 .mobile-portfolio-slider-container-list li:nth-last-child(1){
     margin-bottom: 80px;
 }
+@media only screen and (max-width: 375px) {
+    #display-button, #back-button,.carousel-control-next,.carousel-control-prev{
+        display: none;
+    }
+    .header-container, .portfolio-slider-container{
+        display: inline;
+    }   
+    .portfolio-slider-container-img{
+        margin-left: 0px;
+        height: 280px;
+        width: 400px;
+    }
+    .portfolio-slider-container-title_btl{
+        display: inline;
+    }
+    .portfolio-slider-container-button{
+        display:none;
+    }
+    .portfolio-slider-container-list{
+        display: none;
+    }
+    }

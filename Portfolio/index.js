@@ -43,6 +43,12 @@ backButton.addEventListener('click', (e) => {
   portfolioImg.forEach(element => element.classList.remove('mobile-carousel-items'));
 })
 portfolioBtn.forEach(element => element.addEventListener('click', (e) => {
-  portfolioList.forEach(element => element.classList.toggle('mobile-portfolio-slider-container-list'));
+  portfolioList.forEach(element => {element.classList.toggle('mobile-portfolio-slider-container-list')
+  if (element.style.display === "none"||!element.style.display) {
+    element.style.display = "inline";
+  } else {
+    element.style.display = "none";
+  }
+});
   portfolioImg.forEach(element => element.classList.toggle('mobile-carousel-items'));
 }));
