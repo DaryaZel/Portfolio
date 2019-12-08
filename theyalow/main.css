@@ -1,0 +1,301 @@
+body{
+    background:url(assets/Layer\ 31.svg) no-repeat center;
+    background-color: #ffffff;
+    height: 1840px;
+    margin: 0 auto;
+    font-family: "Segoe UI";    
+    text-transform: uppercase;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 1020px;
+}
+.header{
+    height: 170px;
+}
+.logo{
+    position: relative; 
+    display: flex;
+    align-items: center;
+}
+.logo-img-2{
+    position: absolute ;
+    left: 8px;
+    top:0;
+}
+.logo-img-1{
+    padding-left:4px;
+}
+.logo-text{
+    font-family: "Lucida Sans"; 
+    font-size: 41px; 
+    font-style: italic;
+    font-weight: 400; 
+    color: #ffffff
+}
+.nav{
+    display: flex;
+    padding-top:25px;
+    justify-content: space-between
+}
+.menu{
+    margin-top: 35px;
+    display: flex;
+    
+}
+.menu-nav{    
+   display: flex;
+   position: absolute;
+   margin-left: 35px;
+   margin-top: 8px;
+  }
+  .menu-nav li{
+    padding: 11px 23px 11px 13px;  
+  }
+  .menu-nav li:not(:first-child){
+      border-left: 1px solid #a78708;
+  }
+  .menu-nav li a{
+    display: flex;
+    align-items: center;
+    text-decoration:none;
+  }
+  .menu-nav-text:hover{
+      color:white;
+  }
+.menu-nav-text{
+    color: #a78708;
+    font-size: 17px; 
+    font-weight: 400;
+    padding-left: 5px;
+   
+}
+.video{    
+    margin-right: 80px;
+}
+.slider-content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;   
+}
+.slider-button-1{
+    position: absolute;
+    left:100px;
+}
+.slider-button-2{
+    position: absolute;
+    right:100px;
+}
+.video-content{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.video-description{
+    font-family: 'Asap', sans-serif;
+    font-size: 63px; 
+    text-align: center;
+    color:#ffffff
+}
+.colortext{
+    color:#f5c506;
+}
+.process-content{
+    padding: 43px 0px;
+}
+.process{
+    display: flex;
+    justify-content: space-between;
+    margin:0px 135px;       
+}
+.process li{
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+}
+h4{
+    font-size: 27px; 
+    font-weight: 200;   
+}
+.carousel{
+    display: flex;
+    height: 206px;
+}
+.carousel li:nth-child(1){
+    background: #ec9e03;
+    width: 336px;
+    padding: 20px;
+    position: relative;
+}
+.carousel li:nth-child(3){
+    display: flex;
+    background: #ec9e03;
+    width: 330px;
+    margin-left: 35px;  
+    vertical-align: middle; 
+    justify-content: center;  
+    position: relative;
+}
+h5{
+    position: absolute;
+    right: 10px; 
+    bottom: 10px; 
+}
+h5:hover{
+    color: black;
+    cursor: pointer
+}
+
+h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 37px; 
+    font-weight: 400;
+    color: #ffffff;
+    padding: 40px 0;
+}
+.about-lorem, h5{
+    color: #ffffff;
+    font-size: 29px;
+}
+.about-lorem{
+    width: 340px;
+}
+.date{
+    background: #ddb101;
+    width: 110px;
+    height: 85px;
+    text-align: center;
+    vertical-align: middle;
+}
+.date h2:nth-child(1){
+    font-size: 51px;
+    font-weight: 900;
+    color: #ffffff;
+    padding-top: 10px;
+}
+.date h2:nth-child(2){
+    font-size: 21px;
+    color: #c2821a;
+    }
+.slider{
+    margin-top: 50px;
+    text-align: center
+    }
+.dop-service{
+    margin-top: 80px;
+    }
+.dop-service h3{
+    padding:0;
+    text-align: center;
+    font-size: 41px;
+    color: #f5c506;
+}
+.dop-service-container{
+    display: flex;
+   height: 561;
+}
+.dop-service-container ul{
+    margin-left: 75px;
+    padding-top: 60px;
+    width: 380px;
+}
+.dop-service-container ul li{
+    display: flex;
+    margin: 20px 0px;
+}
+.dop-service-container ul li p{
+    padding-left: 20px;
+    color: #7a7a79;
+    font-size: 22px;
+}
+.footer{
+    margin-top: 75px;
+}
+.footer h4{
+    font-weight: 400;
+}
+@media screen and (max-width: 650px){
+    body{
+    max-height: 1550px;
+    background-size: 0;
+    max-width: 641px;
+}
+.header{
+    height: 50px;
+}
+    .wrapper{
+    margin: 0 auto;
+    max-width: 641px;
+}
+.menu{
+    margin:0;
+}
+
+    .logo-img-2{
+    left: 10px;
+    top:10px;
+}
+.nav{
+    margin:0;
+    padding: 0;
+}
+.nav .logo{
+    background:url(assets/Layer\ 26.png) no-repeat center;
+    position: static;
+}
+.logo-text{ 
+    font-size: 18px; 
+    padding-right: 40px;
+    
+}
+.video video {
+    width: 641px;
+}
+.slider-button-2, .slider-button-1 {
+   display: none;
+}
+.colortext {
+    display: none
+}
+.slider-content {
+    margin-bottom: 0px;
+}
+.process {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px 0 10px;
+}
+.carousel {
+    height: 230px;
+}
+.carousel li:nth-child(3) {
+    display:none;
+}
+.carousel li:nth-child(1) {
+    width: 300px;
+    margin: 0 5px;
+}
+.carousel li:nth-child(2) {
+    width: 331px;
+    height: 206px;
+}
+.about-lorem {
+    width: 290px;
+}
+.date, .slider, .calender-content h3{
+    display:none;
+    
+} 
+.dop-service{
+    background:url(assets/Layer\ 33.png) no-repeat center;
+    margin-top: 5px;
+}
+.dop-service-container div {
+    display: none;
+}
+.footer {
+    margin-top: 0px;
+    background:url(assets/Layer\ 36.png) no-repeat center;
+}
+
+}
